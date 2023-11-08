@@ -1,0 +1,3 @@
+﻿store_and_fwd_flag_id,symbol,description
+1,Y,store and forward trip
+2,N,not a store and forward trip
