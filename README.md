@@ -34,3 +34,21 @@ More information about the dataset can be found here:
 
 ## Data Model
 <img src="Data Models-Uber Data Analytics Project.png">
+
+## Dashboard
+- I took some charts and graphs in the Looker dashboard https://lookerstudio.google.com/reporting/b5fec712-41b4-477c-9690-59f9b7261180
+
+## Launching the project
+1a. Run the Notebook file
+- If you want to run this file, I suggest you go to the above dataset website to get the newest dataset in Parquet type
+- Since the size of this file when I convert from Parquet type to CSV file is too big, I can put this data file into this Repo
+- In this file, I have written ETL code to get the data frame of tables in Star schema
+1b. Create GCP account
+2. Create Buckets in Cloud Storage, then public your dataset (if you want)
+3. Create the VM machine instance, configure the setting
+4. Create the Firewall in VPC network
+5. Go to Mage interface, then create ETL pipeline
+6. Create Credential in APIs & Services
+7. Create dataset in Bigquery Studio, then export the data from Exporter file in Mage to this dataset
+8. Create analytic file in SQL language
+9. Create Dashboard in Looker, then import the above analytic file and create your own dashboard
