@@ -43,6 +43,7 @@ More information about the dataset can be found here:
 - If you want to run this file, I suggest you go to the above dataset website to get the newest dataset in Parquet type
 - Since the size of this file when I convert from Parquet type to CSV file is too big, I can put this data file into this Repo
 - In this file, I have written ETL code to get the data frame of tables in Star schema
+
 1b. Create GCP account
 2. Create Buckets in Cloud Storage, then public your dataset (if you want)
 3. Create the VM machine instance, configure the setting
