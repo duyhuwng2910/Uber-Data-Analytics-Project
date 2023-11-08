@@ -45,6 +45,7 @@ More information about the dataset can be found here:
 - In this file, I have written ETL code to get the data frame of tables in Star schema
 
 1b. Create GCP account
+
 2. Create Buckets in Cloud Storage, then public your dataset (if you want)
 3. Create the VM machine instance, configure the setting
 4. Create the Firewall in VPC network
